@@ -3,9 +3,9 @@
 TNP -- Text Number Parser. TNP translates a word-written number like "_five thousands three hundreds and sixteen_" to
 number -- **5316** and vise versa.
 
-[![Jenkins Status](https://img.shields.io/jenkins/s/https/ci-builds.apache.org/job/Logging/job/log4j/job/release-2.x.svg)](https://ci-builds.apache.org/job/Logging/job/log4j/job/release-2.x/)
-[![Travis Status](https://travis-ci.org/apache/logging-log4j2.svg?branch=master)](https://travis-ci.org/apache/logging-log4j2)
-[![Maven Central](https://img.shields.io/maven-central/v/org.apache.logging.log4j/log4j-api.svg)](http://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-api)
+[//]: # ([![Jenkins Status]&#40;https://img.shields.io/jenkins/s/https/ci-builds.apache.org/job/Logging/job/log4j/job/release-2.x.svg&#41;]&#40;https://ci-builds.apache.org/job/Logging/job/log4j/job/release-2.x/&#41;)
+[//]: # ([![Travis Status]&#40;https://travis-ci.org/apache/logging-log4j2.svg?branch=master&#41;]&#40;https://travis-ci.org/apache/logging-log4j2&#41;)
+[//]: # ([![Maven Central]&#40;https://img.shields.io/maven-central/v/org.apache.logging.log4j/log4j-api.svg&#41;]&#40;http://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-api&#41;)
 
 ## Pull Requests on Github
 
