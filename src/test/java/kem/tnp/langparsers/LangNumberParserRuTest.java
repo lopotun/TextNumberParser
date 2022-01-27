@@ -13,6 +13,16 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 class LangNumberParserRuTest {
 
 	@Test
+	void numberToString72_462_609() {
+		long number = 72_462_609L;
+		String text = "семьдесят два миллиона четыреста шестьдесят две тысячи шестьсот девять";
+		LangNumberParserRu parser = new LangNumberParserRu();
+
+		assertEquals(text, parser.numberToString(number));
+		assertEquals(number, parser.stringToNumber(text));
+	}
+
+	@Test
 	void numberToString314_042_517_234_583() {
 		long number = 314_042_517_234_583L;
 		String text = "триста четырнадцать триллионов сорок два миллиарда пятьсот семнадцать миллионов двести тридцать четыре тысячи пятьсот восемьдесят три";

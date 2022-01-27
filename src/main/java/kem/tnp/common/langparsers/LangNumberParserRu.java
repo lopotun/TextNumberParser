@@ -141,6 +141,7 @@ public class LangNumberParserRu implements LangNumberParser {
 					case 1:
 					case 2:
 						res.append(ONES_MAP_R.get(n * 10));
+						break;
 					default:
 						res.append(ONES_MAP_R.get(n));
 				}
